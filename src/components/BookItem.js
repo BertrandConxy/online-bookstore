@@ -9,13 +9,19 @@ const BookItem = () => (
       <div className="links-container">
         <ul>
           <li>
-            <a href="@">Comments |</a>
+            <button type="button" key="comment-btn">
+              Comments
+            </button>
           </li>
           <li>
-            <a href="##">Remove |</a>
+            <button type="button" key="edit-btn">
+              Edit
+            </button>
           </li>
           <li>
-            <a href="###">Edit</a>
+            <button type="button" key="remove-btn">
+              Remove
+            </button>
           </li>
         </ul>
       </div>
