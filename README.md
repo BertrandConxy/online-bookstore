@@ -1,9 +1,32 @@
-# online-bookstore
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# online-bookstore app
 If you are keen to reading, you probably forget the books you have read or where you were reaching while reading a particular book. This app is here to help you overcome that. It is a book store management system where you can add a book and track your progress to finishing reading it. If you want to remove any, simply click on remove button and it is deleted.
 
-# Getting Started with Create React App
+# Screenshot
+![Screenshot (34)](https://user-images.githubusercontent.com/90222110/155992775-ca8a575a-a107-478e-a698-cdb9021667bd.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Live Demo
+Not yet deplyed
+
+# Built with
+- React.js
+- Redux
+- HTML
+- CSS
+
+# Other tools
+- Webpack and Babel compiler
+
+
+# Usage
+
+## installation
+
+This project has a lot of dependencies. In order to run on your machine very well, you need to install them by typing in the terminal
+
+`npm install`
 
 ## Available Scripts
 
@@ -42,32 +65,24 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+# Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Bertrand Mutangana Ishimwe**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [Bertrand Mutangana Ishimwe](https://github.com/BertrandConxy)
+- Twitter: [Bertrand Mutangana Ishimwe](https://twitter.com/BertrandMutanga)
+- LinkedIn: [Bertrand Mutangana Ishimwe](https://www.linkedin.com/in/bertrand-mutangana-024905220/)
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues page](https://github.com/BertrandConxy/online-bookstore/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
+- Thank to God
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
