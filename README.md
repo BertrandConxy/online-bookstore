@@ -21,8 +21,24 @@ Not yet deplyed
 
 
 # Usage
+## Run and use this project on your Local machine
 
-## installation
+> To get a local copy up and running follow these simple example steps.
+
+-Clone this repository with
+
+<code> git clone <https://github.com/BertrandConxy/online-bookstore.git> </code>
+
+-using your terminal or command line.
+
+-Change to the project directory by entering :
+
+<code>cd LeaderBoard-app</code>, in the terminal.
+
+-run <code>code .</code>to open it in vscode.
+However, there are some project prerequisites including various dependencies required for this project to run properly
+
+## installation of prerequisites
 
 This project has a lot of dependencies. In order to run on your machine very well, you need to install them by typing in the terminal
 
