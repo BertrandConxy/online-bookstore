@@ -1,5 +1,9 @@
+* {
+  margin: 0;
+}
 body {
   margin: 0;
+  padding: 2rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,4 +11,58 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+header {
+  display: flex;
+  margin-bottom: 2rem;
+}
 
+a {
+  text-decoration: none;
+}
+
+header nav {
+  display: flex;
+  align-self: center;
+  margin-right: 5rem;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+  margin-right: 2rem;
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(49, 48, 48);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.links-container ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.links-container ul li {
+  margin-right: 1rem;
+}
+
+.book-list {
+  position: absolute;
+  width: 90%;
+}
+
+.add-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type='text'] {
+  width: 500px;
+}
