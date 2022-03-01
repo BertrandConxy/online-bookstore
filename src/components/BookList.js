@@ -5,7 +5,6 @@ import BookItem from './BookItem';
 const BookList = () => (
   <div className="book-list">
     <BookItem />
-    <BookItem />
     <hr />
     <AddBook />
   </div>
