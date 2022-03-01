@@ -1,7 +1,8 @@
 const ADD_BOOK = 'online-bookstore/books/ADD_BOOK';
 const REMOVE_BOOK = 'online-bookstore/books/REMOVE_BOOK';
 
-const initialState = [];
+const initialState = [
+];
 
 export const addBook = (payload) => ({
   type: ADD_BOOK,
