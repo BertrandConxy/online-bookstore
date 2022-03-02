@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { FaUserAlt } from 'react-icons/fa';
 
 const Navbar = () => {
   const links = [
@@ -25,6 +26,9 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+        <div className="user-container">
+          <FaUserAlt />
+        </div>
       </nav>
     </header>
   );
