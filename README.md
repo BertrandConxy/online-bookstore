@@ -4,7 +4,8 @@
 If you are keen to reading, you probably forget the books you have read or where you were reaching while reading a particular book. This app is here to help you overcome that. It is a book store management system where you can add a book and track your progress to finishing reading it. If you want to remove any, simply click on remove button and it is deleted.
 
 # Screenshot
-![Screenshot (34)](https://user-images.githubusercontent.com/90222110/155992775-ca8a575a-a107-478e-a698-cdb9021667bd.png)
+
+![Screenshot (36)](https://user-images.githubusercontent.com/90222110/156397430-eb82ccf9-28dd-4043-ac07-92a783845eb5.png)
 
 
 # Live Demo
