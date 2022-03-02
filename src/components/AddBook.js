@@ -7,7 +7,6 @@ const AddBook = () => {
   const dispatch = useDispatch();
   const [inputText, setInputText] = useState({
     title: '',
-    author: '',
     category: '',
   });
 
@@ -21,15 +20,13 @@ const AddBook = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     const newBook = {
-      id: uuidv4(),
+      item_id: uuidv4(),
       title: inputText.title,
-      author: inputText.author,
       category: inputText.category,
     };
     dispatch(addBook(newBook));
     setInputText({
       title: '',
-      author: '',
       category: '',
     });
   };
@@ -44,14 +41,6 @@ const AddBook = () => {
           key="title-input"
           placeholder="Book title"
           value={inputText.title}
-          onChange={changeHandler}
-        />
-        <input
-          type="text"
-          name="author"
-          key="author-input"
-          placeholder="Book author"
-          value={inputText.author}
           onChange={changeHandler}
         />
         <select
