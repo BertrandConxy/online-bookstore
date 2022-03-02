@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600;700;800;900&display=swap');
+
 * {
   margin: 0;
 }
@@ -32,7 +33,6 @@ header {
   border: 1px solid #e8e8e8;
   border-radius: 50%;
   padding: 2px 5px;
-
 }
 
 a {
@@ -91,7 +91,6 @@ a.active {
   position: absolute;
   width: 90%;
   padding: 0 5rem;
-  
 }
 
 .book-category {
@@ -118,16 +117,58 @@ a.active {
 .add-form {
   display: flex;
   justify-content: space-between;
+  margin-top: 1.2rem;
+  margin-bottom: 16.5rem;
 }
 
 input[type='text'] {
-  width: 400px;
+  width: 41.5rem;
+  height: 2.813rem;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+}
+
+::placeholder {
+  font-size: 1rem;
+  padding-left: 1rem;
+  letter-spacing: -0.15px;
+}
+
+select {
+  width: 17.813rem;
+  height: 2.813rem;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+  padding: 0 0.5rem;
+  font-size: 1rem;
+  color: #c4c4c4;
+  letter-spacing: -0.15px;
+}
+
+option {
+  color: #121212;
+  letter-spacing: -0.15px;
+}
+
+input[type='submit'] {
+  width: 8.938rem;
+  font-family: 'RobotoSlab', sans-serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+  padding: 0.801rem 1.188rem 0.886rem 1.375rem;
+  border-radius: 3px;
+  background-color: #0290ff;
+  border: none;
+  cursor: pointer;
 }
 
 .btn-1 {
   border: none;
   background: none;
-  font-family: RobotoSlab;
+  font-family: 'RobotoSlab', sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   color: #4386bf;
@@ -147,6 +188,7 @@ input[type='text'] {
   display: flex;
   flex-flow: column;
 }
+
 .number {
   font-size: 2rem;
   margin: 5px 1rem;
@@ -156,6 +198,7 @@ input[type='text'] {
   opacity: 0.5;
   font-size: 0.875rem;
 }
+
 .line {
   border-right: 1px solid #e8e8e8;
 }
@@ -193,9 +236,18 @@ input[type='text'] {
   border-radius: 3px;
   background-color: #0290ff;
   border: none;
-
+  cursor: pointer;
 }
 
 hr {
   color: #e8e8e8;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: -0.18px;
+  color: #888;
 }

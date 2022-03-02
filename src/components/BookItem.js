@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
-import CircularProgress from "@material-ui/core/CircularProgress";
-import { useSelector, useDispatch } from "react-redux";
-import { loadBooks, removeBook } from "../redux/books/books";
+import React, { useEffect } from 'react';
+import CircularProgress from '@material-ui/core/CircularProgress';
+import { useSelector, useDispatch } from 'react-redux';
+import { loadBooks, removeBook } from '../redux/books/books';
 
 const BookItem = () => {
   const dispatch = useDispatch();
@@ -68,13 +68,13 @@ const BookItem = () => {
                 value={50}
               />
               <div className="numerics">
-                <span className="number">5%</span>
+                <span className="number">50%</span>
                 <span className="completed">completed</span>
               </div>
             </div>
             <div className="view-progress">
               <span className="chapter-title">Current chapter</span>
-              <h3 className="chapter-number">Chapter 1</h3>
+              <h3 className="chapter-number">Chapter 10</h3>
               <button id={book.item_id} type="button" className="btn-2">
                 Update progress
               </button>

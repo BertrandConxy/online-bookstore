@@ -33,7 +33,7 @@ const AddBook = () => {
 
   return (
     <div className="Add-book">
-      <h2>ADD NEW BOOK</h2>
+      <h2 className="form-heading">ADD NEW BOOK</h2>
       <form className="add-form" onSubmit={submitHandler}>
         <input
           type="text"
@@ -51,7 +51,7 @@ const AddBook = () => {
         >
           <option value="" hidden>Category</option>
           <option value="Action">Action</option>
-          <option name="category">Fiction</option>
+          <option value="Fiction">Fiction</option>
           <option value="Thriller">Thriller</option>
           <option value="Inspiration">Inspiration</option>
           <option value="Business">Business</option>
