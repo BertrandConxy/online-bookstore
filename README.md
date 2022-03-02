@@ -33,7 +33,7 @@ Not yet deplyed
 
 -Change to the project directory by entering :
 
-<code>cd LeaderBoard-app</code>, in the terminal.
+<code>cd online-bookstore</code>, in the terminal.
 
 -run <code>code .</code>to open it in vscode.
 However, there are some project prerequisites including various dependencies required for this project to run properly
