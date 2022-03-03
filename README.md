@@ -9,7 +9,7 @@ If you are keen to reading, you probably forget the books you have read or where
 
 
 # Live Demo
-Not yet deplyed
+[book store here](https://bookstorehere.netlify.app/)
 
 # Built with
 - React.js
